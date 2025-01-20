@@ -1,7 +1,7 @@
 // eslint-disable-next-line react/prop-types
 export default function Input({ tarefa, setTarefa, detalhes, setDetalhes }) {
   return (
-    <div className="max-w-sm space-y-6">
+    <div className="space-y-6">
       {/* Campo Nome da Tarefa */}
       <div className="relative">
         <input
